@@ -1,7 +1,16 @@
 * {
     box-sizing: border-box;
+    margin: 0%;
+    /* removes white space on top of the background */
+    padding: 0%;
 }
 
 .header {
+   
     background-color: rgba(22, 22, 23, .8);
+    height: 36px;
+}
+
+.header img {
+    max-width: 16px;
 }
