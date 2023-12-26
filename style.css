@@ -15,14 +15,15 @@
     max-width: 26px;
 }
 
-ul {
+.links ul {
     font-size: 16px;
     display: flex;
     list-style: none;
     color: white;
     justify-content: center;
     align-items: center;
-    gap: 16px;
+    gap: 26px;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif, Helvetica Neue, Helvetica,Arial sans-serif;
 }
 
 /* last minute gift section */
@@ -38,3 +39,16 @@ ul {
     max-width: 500px;
 }
 
+.last-minute-gift .title {
+    font-size: 26px;
+}
+
+.last-minute-gift .one-liner {
+    font-size: 26px;
+}
+
+.last-minute-gift ul {
+    list-style: none;
+    color: blue;
+    font-size: 20px;
+}
