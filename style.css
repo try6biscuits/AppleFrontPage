@@ -1,3 +1,7 @@
 * {
     box-sizing: border-box;
 }
+
+.header {
+    background-color: rgba(22, 22, 23, .8);
+}
