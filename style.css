@@ -59,5 +59,24 @@
 .iphone-15-pro {
     background-color: black;
     height: 600px;
+    text-align: center;
+}
+
+.iphone-15-pro, .title, .catch-phrase {
+    color: white;
+}
+
+.iphone-15-pro .title {
+    font-size: 66px;
+}
+
+.iphone-15-pro .catch-phrase {
+    font-size: 26px;
+}
+
+.iphone-15-pro .list ul {
+    list-style: none;
+    color: blue;
+    font-size: 20px;
 }
 
