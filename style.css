@@ -14,3 +14,13 @@
 .header img {
     max-width: 26px;
 }
+
+ul {
+    font-size: 12px;
+    display: flex;
+    list-style: none;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
