@@ -76,14 +76,17 @@
 
 .iphone-15-pro .catch-phrase {
     font-size: 26px;
+    margin-bottom: 16px;
 }
 
-.iphone-15-pro .list ul {
+.iphone-15-pro .list ul  {
     list-style: none;
-    color: blue;
     font-size: 20px;
     display: flex;
-    text-align: center;
+    gap: 36px;
 }
 
+.iphone-15-pro .list ul a {
+    color: #2997ff;
+}
 
