@@ -59,7 +59,11 @@
 .iphone-15-pro {
     background-color: black;
     height: 600px;
-    text-align: center;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .iphone-15-pro, .title, .catch-phrase {
@@ -78,5 +82,8 @@
     list-style: none;
     color: blue;
     font-size: 20px;
+    display: flex;
+    text-align: center;
 }
+
 
