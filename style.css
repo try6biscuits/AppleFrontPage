@@ -99,3 +99,21 @@
 
 /* other items */
 
+.more-items-Macbook-Pro-header {
+    font-size: 36px;
+}
+
+.more-items-Macbook-Pro-hook {
+    font-size: 20px;
+}
+
+.more-items-Macbook-Pro-links ul  {
+    list-style: none;
+    font-size: 16px;
+    display: flex;
+    gap: 36px;
+    margin-bottom: 66px;
+}
+.more-items-Macbook-Pro-links ul a {
+    color: #2997ff;
+}
