@@ -100,17 +100,20 @@
 /* other items */
 
 .more-items-Macbook-Pro-header,
-.more-items-iPad-header {
+.more-items-iPad-header,
+.more-items-apple-watch-header h1 {
     font-size: 36px;
 }
 
 .more-items-Macbook-Pro-hook,
-.more-items-iPad-hook {
+.more-items-iPad-hook,
+.more-items-apple-watch-hook {
     font-size: 20px;
 }
 
 .more-items-Macbook-Pro-links ul,
-.more-items-iPad-links ul {
+.more-items-iPad-links ul,
+.more-items-apple-watch-links ul {
     list-style: none;
     font-size: 16px;
     display: flex;
@@ -118,7 +121,8 @@
     margin-bottom: 66px;
 }
 .more-items-Macbook-Pro-links ul a,
-.more-items-iPad-links ul a {
+.more-items-iPad-links ul a,
+.more-items-apple-watch-links ul a {
     color: #2997ff;
 }
 
@@ -127,6 +131,7 @@
     justify-content: space-between;
     align-items: center;
     margin-bottom: 500px;
+    flex-wrap: wrap;
 }
 
 .more-items-Macbook-pro {
@@ -145,3 +150,13 @@
     align-items: center;
 }
 
+.more-items-apple-watch {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.more-items-apple-watch-header p {
+    text-align: center;
+}
