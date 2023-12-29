@@ -171,3 +171,12 @@
     /* this removes the space from the right so the section can go to the right */
 }
 
+.more-items-airpods {
+    width: 800px;
+    background-color: black;
+}
+
+.more-items-airpods-header,
+.more-items-airpods-hook {
+    color: white;
+}
