@@ -156,8 +156,18 @@
     align-items: center;
 }
 
-
-
 .more-items-apple-watch-header p {
     text-align: center;
 }
+
+.more-items-Macbook-pro {
+    background-color: #fbfbfd;
+}
+
+.more-items-iPad {
+    background-color: #FFFAFA;
+    width: 800px;
+    margin-right: 0;
+    /* this removes the space from the right so the section can go to the right */
+}
+
