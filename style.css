@@ -138,7 +138,9 @@
     flex-wrap: wrap;
 }
 
-.more-items-Macbook-pro {
+.more-items-Macbook-pro,
+.more-items-apple-watch,
+.more-items-airpods {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -154,12 +156,7 @@
     align-items: center;
 }
 
-.more-items-apple-watch {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
+
 
 .more-items-apple-watch-header p {
     text-align: center;
