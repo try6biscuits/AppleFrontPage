@@ -117,3 +117,8 @@
 .more-items-Macbook-Pro-links ul a {
     color: #2997ff;
 }
+
+.more-items {
+    display: flex;
+    justify-content: space-between;
+}
