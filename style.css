@@ -125,9 +125,20 @@
 .more-items {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    margin-bottom: 500px;
 }
 
 .more-items-Macbook-pro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.more-items-iPad {
+    margin-top: 75px;
+    margin-right: 200px;
     display: flex;
     flex-direction: column;
     justify-content: center;
