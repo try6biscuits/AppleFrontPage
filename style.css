@@ -97,4 +97,24 @@
     margin-left: 400px;
 }
 
-/* other items */
+/* appleProducts */
+
+.macBook-section {
+    background-color: grey;
+    color: white;
+}
+
+.macBook-section .header-container {
+    font-size: 36px;
+}
+
+.macBook-section .links-container ul a {
+    color: #2997ff;
+}
+
+.macBook-section .links-container ul {
+    display: flex;
+    list-style: none;
+    gap: 16px;
+}
+
