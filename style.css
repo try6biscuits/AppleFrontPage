@@ -99,22 +99,46 @@
 
 /* appleProducts */
 
-.macBook-section {
+.appleProducts {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 800px;
+    flex-wrap: wrap;
+}
+
+.macBook-section,
+.appleWatch-section {
     background-color: grey;
     color: white;
 }
 
-.macBook-section .header-container {
+.macBook-section .header-container,
+.appleWatch-section .header-container {
     font-size: 36px;
 }
 
-.macBook-section .links-container ul a {
+.macBook-section .links-container ul a,
+.appleWatch-section .links-container ul a {
     color: #2997ff;
 }
 
-.macBook-section .links-container ul {
+.macBook-section .links-container ul, 
+.appleWatch-section .links-container ul {
     display: flex;
     list-style: none;
     gap: 16px;
+}
+
+.appleWatch-section  {
+    background-color: beige;
+}
+
+.macBook-section img,
+.appleWatch-section img {
+ width:952px;
+}
+
+.macBook-section img {
+    margin-top: 100px;
 }
 
